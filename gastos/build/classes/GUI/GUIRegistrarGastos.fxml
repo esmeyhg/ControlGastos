@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="265.0" prefWidth="271.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.controladores.RegistrarGastosController">
+   <children>
+      <SplitPane dividerPositions="0.9888059701492538" prefHeight="264.0" prefWidth="270.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="404.0" prefWidth="231.0">
+               <children>
+                  <TextField fx:id="nombreTF" layoutX="76.0" layoutY="50.0" />
+                  <TextField fx:id="precioTF" layoutX="76.0" layoutY="102.0" />
+                  <TextField fx:id="cantidadTF" layoutX="76.0" layoutY="154.0" />
+                  <Label fx:id="fecha" layoutX="14.0" layoutY="14.0" text="fecha" />
+                  <Label layoutX="15.0" layoutY="54.0" text="Nombre:" />
+                  <Label layoutX="12.0" layoutY="106.0" text="Precio ($):" />
+                  <Label layoutX="15.0" layoutY="158.0" text="Cantidad:" />
+                  <Button fx:id="registrarGasto" layoutX="26.0" layoutY="212.0" mnemonicParsing="false" onAction="#guardarGasto" text="Registrar gasto" />
+                  <Button fx:id="nuevoGasto" layoutX="122.0" layoutY="212.0" mnemonicParsing="false" text="Nuevo" />
+                  <Button fx:id="regresarPrincipal" layoutX="173.0" layoutY="212.0" mnemonicParsing="false" text="Regresar" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="227.0" prefWidth="154.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

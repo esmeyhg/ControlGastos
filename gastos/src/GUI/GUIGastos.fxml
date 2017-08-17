@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="199.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.controladores.GastosController">
+   <children>
+      <Button fx:id="botonObtenerGastos" layoutX="21.0" layoutY="76.0" mnemonicParsing="false" onAction="#gotoBuscar" prefHeight="48.0" prefWidth="128.0" text="Obtener gastos" textFill="#141414" />
+      <Button fx:id="botonRegistrarGastos" layoutX="187.0" layoutY="76.0" mnemonicParsing="false" onAction="#gotoRegistrar" prefHeight="48.0" prefWidth="128.0" text="Registrar gastos" />
+      <Label layoutX="85.0" layoutY="20.0" text="Control de Gastos" textFill="#782f37">
+         <font>
+            <Font name="Avenir Book" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
